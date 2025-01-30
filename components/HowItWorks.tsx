@@ -88,7 +88,7 @@ const HowItWorks = () => {
 								Earn while doing good
 							</h2>
 							<p className="text-gray-500 text-[15px] md:text-[16px] font-light text-center">
-							Even if you don't win the grand prize, you can still earn other prizes or become one of the top donors.
+							Even if you don&#39;t win the grand prize, you can still earn other prizes or become one of the top donors.
 							</p>
 						</div>
 					</div>

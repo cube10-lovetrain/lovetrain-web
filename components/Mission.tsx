@@ -49,7 +49,7 @@ const Mission = () => {
 					<p className="text-gray-400 text-[16px] md:text-[19px] max-w-[350px] sm:max-w-[500px] md:max-w-2xl pt-2">
 						We are aware of your effect over those who admire and respect you.
 						Your voice and influence will make a significant difference in
-						someone's life and for the greater good. If you're passionate about
+						someone&#39;s life and for the greater good. If you&#39;re passionate about
 						a particular cause, Reach out , and we can arrange to start your
 						fundraising campaign here.
 					</p>

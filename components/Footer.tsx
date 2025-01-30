@@ -3,6 +3,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FiFacebook } from "react-icons/fi";
 import { FaInstagram } from "react-icons/fa";
 import Link from "next/link";
+import Image from "next/image";
 
 const Footer = () => {
 	return (
@@ -10,7 +11,7 @@ const Footer = () => {
 			<div className="w-full max-w-6xl mx-auto px-4 md:px-6">
 				{/* Logo Section */}
 				<div className="flex justify-center md:justify-start mb-6 md:mb-9">
-					<img
+					<Image
 						src="/images/footer-logo.png"
 						alt="ChariFun Logo"
 						className="w-36 md:w-48 h-auto"
