@@ -3,7 +3,7 @@ import React from "react";
 
 const HowItWorks = () => {
 	return (
-		<div className="bg-gray-100 mx-auto pt-10 mt-0 lg:-mt-32 pb-10">
+		<div className="bg-gray-100 mx-auto pb-10">
 			<h2 className="text-center text-[20px] sm:text-[20px] md:text-[30px] font-bold text-black">
 				How it works?
 			</h2>
