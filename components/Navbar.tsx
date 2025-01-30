@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-[80px] py-5">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Image src="/images/header-logo.png" alt='Charifun logo' width={200} height={200} />
+            <Image src="/images/header-logo.png" alt='Charifun logo' width={200} height={200} className='w-[150px] h-[150px] md:w-[200px] md:h-[200px]' />
           </div>
 
           {/* Desktop Navigation */}
@@ -36,7 +36,7 @@ const Navbar = () => {
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-blue-600 focus:outline-none"
+              className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-blue-600 focus:outline-none mr-4"
             >
               {isOpen ? (
                 <X className="h-6 w-6" />
