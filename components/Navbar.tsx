@@ -29,13 +29,13 @@ const Navbar = () => {
 					<div className="hidden md:flex items-center space-x-8">
 						<a
 							href="#"
-							className="text-[18px] text-gray-700 hover:text-[#ff9f1c] transition duration-300"
+							className="text-[16px] text-gray-700 hover:text-[#ff9f1c] transition duration-300"
 						>
 							Explore
 						</a>
 						<a
 							href="#"
-							className="text-[18px] text-gray-700 hover:text-[#ff9f1c] transition duration-300"
+							className="text-[16px] text-gray-700 hover:text-[#ff9f1c] transition duration-300"
 						>
 							About
 						</a>
