@@ -74,20 +74,20 @@ const Footer = () => {
 								</Link>
 							</li>
 							<li>
-								<a
+								<Link
 									href="/"
 									className="hover:text-white transition-colors duration-200"
 								>
 									Become a Partner
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a
+								<Link
 									href="/"
 									className="hover:text-white transition-colors duration-200"
 								>
 									FAQ
-								</a>
+								</Link>
 							</li>
 							<li>
 								<Link
