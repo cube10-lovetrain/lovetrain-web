@@ -28,6 +28,7 @@ const Mission = () => {
 					alt="Our mission"
 					width={350}
 					height={350}
+					priority
 					className="w-[250px] sm:w-[300px] md:w-[350px] h-[250px] sm:h-[300px] md:h-[350px] "
 				/>
 			</div>
@@ -39,6 +40,7 @@ const Mission = () => {
 					alt="Our mission"
 					width={350}
 					height={350}
+					priority
 					className="w-[250px] sm:w-[300px] md:w-[350px] h-[250px] sm:h-[300px] md:h-[350px] "
 				/>
 

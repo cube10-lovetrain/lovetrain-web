@@ -27,18 +27,18 @@ const Navbar = () => {
 
 					{/* Desktop Navigation */}
 					<div className="hidden md:flex items-center space-x-8">
-						<a
-							href="#"
+						<Link
+							href="/"
 							className="text-[16px] text-gray-700 hover:text-[#ff9f1c] transition duration-300"
 						>
 							Explore
-						</a>
-						<a
-							href="#"
+						</Link>
+						<Link
+							href="/about"
 							className="text-[16px] text-gray-700 hover:text-[#ff9f1c] transition duration-300"
 						>
 							About
-						</a>
+						</Link>
 					</div>
 
 					{/* Desktop Buttons */}
@@ -70,18 +70,18 @@ const Navbar = () => {
 				{isOpen && (
 					<div className="md:hidden">
 						<div className="px-2 pt-2 pb-3 space-y-1">
-							<a
-								href="#"
+							<Link
+								href="/"
 								className="block px-3 py-2 rounded-md text-gray-700 hover:text-[#ff9f1c] transition duration-300"
 							>
 								Explore
-							</a>
-							<a
-								href="#"
+							</Link>
+							<Link
+								href="/about"
 								className="block px-3 py-2 rounded-md text-gray-700 hover:text-[#ff9f1c] transition duration-300"
 							>
 								About
-							</a>
+							</Link>
 							<div className="flex flex-col space-y-3 mt-4">
 								<button className="px-4 py-2 text-gray-800 border border-[#ff9f1c] rounded-full hover:bg-[#df9e44] w-full text-center">
 									Login

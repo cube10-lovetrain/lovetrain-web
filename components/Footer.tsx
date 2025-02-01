@@ -15,11 +15,13 @@ const Footer = () => {
 						src="/images/footer-logo.png"
 						alt="ChariFun Logo"
 						className="w-36 md:w-48 h-auto"
+						width={144}
+						height={48}
 					/>
 				</div>
 
 				{/* Links Grid */}
-				<div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 gap-8 md:gap-12 lg:gap-24 ml-2 md:ml-10">
+				<div className="grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-12 lg:gap-24 ml-2 md:ml-10">
 					{/* Information Column */}
 					<div className="space-y-2">
 						<h3 className="text-sm font-semibold mb-2 md:mb-4">Information</h3>
@@ -33,20 +35,20 @@ const Footer = () => {
 								</Link>
 							</li>
 							<li>
-								<a
-									href="#how-it-works"
+								<Link
+									href="/how-it-works"
 									className="hover:text-white transition-colors duration-200"
 								>
 									How it works
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a
-									href="#campaings"
+								<Link
+									href="/campaings"
 									className="hover:text-white transition-colors duration-200"
 								>
 									All campaigns
-								</a>
+								</Link>
 							</li>
 							<li>
 								<Link
@@ -73,7 +75,7 @@ const Footer = () => {
 							</li>
 							<li>
 								<a
-									href="#mission"
+									href="/"
 									className="hover:text-white transition-colors duration-200"
 								>
 									Become a Partner
@@ -81,19 +83,19 @@ const Footer = () => {
 							</li>
 							<li>
 								<a
-									href="#faq"
+									href="/"
 									className="hover:text-white transition-colors duration-200"
 								>
 									FAQ
 								</a>
 							</li>
 							<li>
-								<a
+								<Link
 									href="/privacy-policy"
 									className="hover:text-white transition-colors duration-200"
 								>
 									Privacy Policy
-								</a>
+								</Link>
 							</li>
 						</ul>
 					</div>
@@ -112,7 +114,7 @@ const Footer = () => {
 							</li>
 							<li>
 								<Link
-									href="/explore"
+									href="/"
 									className="hover:text-white transition-colors duration-200"
 								>
 									Explore
@@ -122,7 +124,7 @@ const Footer = () => {
 					</div>
 				</div>
 
-				<div className="flex gap-3 pt-5 md:pt-8 ml-2 md:ml-10">
+				<div className="flex justify-center items-center md:justify-start ml-0 md:ml-10 gap-3 pt-5 md:pt-8">
 					<div className="bg-black rounded-xl p-2">
 						<Link
 							href="https://web.facebook.com/p/LoveTrain-100093264713022/?mibextid=LQQJ4d"
